@@ -1,18 +1,36 @@
-body {
-  background-color: white;
-  font-size: 30px;
+
+#main{
+  background-color: #00ffff;
   text-align: center;
 }
-h1 {
+
+#main h1 {
+  text-align: center;
   color: green;
+  font-size: 60px;
 }
 table, th, td {
   border: 1px solid black;
   margin: auto;
-/*   margin-left:auto;
-  margin-right:auto; */
+   margin-left:auto;
+  margin-right:auto; 
 }
 
 th,td {
   padding: 10px;
+}
+
+#tags{
+  background-color: #00ffff;
+}
+#tags h1{
+  color: green;
+  font-size: 50px;
+}
+
+#tags h2{
+  font-size: 40px;
+}
+#tags p, li{
+  font-size: 30px;
 }
